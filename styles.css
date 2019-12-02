@@ -1,0 +1,431 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	background-color: #F7FBFF;
+}
+
+.toggle-button {
+	display: none;
+}
+
+.contact-list {
+	display: none;
+}
+
+#links-header ul {
+    display: none;
+}
+
+/*********  Navigation Bar  **********/
+.header {
+	position: fixed;
+  	top: 0;
+  	z-index:999;
+	background-color: #29292B;
+	width:100%;
+	height:75px;
+}
+
+.header h3{
+	margin-left:4%;
+	float:left;
+	color: #FFFFFF;
+	font-size:27px;
+	width:100%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.header p {
+	color:#93A3B4;
+	margin-left:4%;
+	float:left;
+	font-size:14px;
+}
+
+nav.nav-menu {
+	float:right;
+}
+
+.nav-menu ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.nav-menu li {
+	float:right;
+	margin:10px;
+
+}
+
+.nav-menu li a:link, a:visited {
+    display: block;
+    width: 140px;
+    font-weight: 1.5em;
+    color: #FFFFFF;
+    background-color: #308DB9;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover, a:active {
+    background-color: #4775A3;
+}
+
+.main-content {
+	margin-top:100px;
+}
+
+.resume-title {
+    padding-top: 5px;
+}
+
+.extra-margin-top {
+	margin-top: 208px !important;
+}
+
+/********** Profile image and contact information **********/
+.img-container {
+	margin-right: 15px;
+}
+
+.img-circle {
+	margin-top:10px;
+	border:5px solid #cfdedc;
+	width: 245px;
+	height: 225px;
+}
+
+.icons {
+	margin-top: -6px;
+}
+
+div.contact-information span {
+    line-height: 2.5;
+}
+
+/********** Resume **********/
+hr {
+	margin:5 0 5 0;
+	border-top:2px solid #8099B2;
+}
+
+a.body-link:link{
+	color: #3366FF;
+}
+
+a.body-link:visited {
+	color: #B85CE6;
+}
+
+.resume-container {
+	padding:10px;
+	margin-bottom: 20px;
+	width:68%;
+	margin-left:-40px;
+}
+
+.resume-title {
+	font-size: 20px;
+	margin-left:5px;
+}
+
+.information-line {
+	font-size: 15px;
+	line-height: 2;
+}
+
+.information-line a:visited {
+	color: #B864E2;
+}
+
+.information-line.phone-number {
+	margin-top: 20px !important;
+	font-size: 15px;
+}
+
+.information-line.project-item {
+	margin-bottom: 10px;
+}
+
+.education li.information-line {
+    line-height: 1.8;
+}
+
+/*** Footer ***/
+.footer {
+    background-color:#b3d0ea;
+	margin-bottom:10px;
+	padding:5px;
+	font-size: 13px;
+	text-align:center;
+}
+
+.footer p {
+    margin-bottom:5px;
+}
+
+.footer p a:visited{
+    color:#3366FF;
+}
+
+
+/*******/
+
+@media only screen and (min-width: 2000px) {
+    .header h3 {
+		width: 400px;
+	}
+	.header p {
+		width: 400px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.header h3 {
+		width: 400px;
+	}
+	.header p {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 1230px) {
+	.img-container span.information-line{
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	body {
+		font-size:14px;
+	}
+
+	.header p {
+		font-size: 12px;
+	}
+
+}
+
+@media only screen and (max-width: 1195px) {
+	.img-container{
+		width:35%;
+	}
+
+	.information-container span.information-line{
+		font-size: 12px;
+	}
+
+	.information-line{
+		font-size: 15px;
+	}
+
+	.information-line.phone-number {
+		font-size: 13px;
+	}
+
+	.resume-title{
+		font-size: 18px;
+	}
+
+	.img-circle{
+		width:200px;
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 993px) {
+	.nav-menu li a:link, a:visited {
+		width:100px;
+	}
+	
+	.information-container{
+		width:100%;
+	}
+
+	.img-circle{
+		width: 180px;
+		height: 180px;
+	}
+
+	.img-container{
+		margin-right: 40px;
+		width: 25%;
+		float: left;
+	}
+
+	.information-container span.information-line{
+		font-size: 13px;
+	}
+	.contact-information {
+		margin-top: 30px;
+		float:left;
+		width:65%;
+	}
+	
+	div.contact-information span {
+    line-height: 3;
+}
+
+	.resume-container{
+		width:100%;
+		margin-left:0;
+	}
+}
+
+@media only screen and (max-width: 849px) {
+
+	.header {
+	    height: 65px;
+	}
+	
+	.header h3{
+		font-size:22px;
+	}
+
+	.header p {
+		font-size: 10px;
+	}
+	
+	.contact-information {
+		margin-bottom: 40px;
+	}
+
+	.resume-container{
+		width:95%;
+	}
+	
+	#small-menu-button {
+	display: block;
+	}
+
+	#bs-example-navbar-collapse-1 {
+		display: block !important;
+	}
+
+	.nav-menu li a:link, a:visited {
+		width:93px;
+	}
+
+	.nav-menu li {
+		font-size: 13px;
+	}
+
+}
+
+@media only screen and (max-width: 770px) {
+
+	.home {
+		display: none;
+	}
+
+	.projects {
+		display: none;
+	}
+	.resume-pdf {
+		display: none;
+	}
+
+	.header p {
+		font-size: 12px;
+	}
+	
+	#links-header {
+		position: fixed;
+		top:65px;
+		right:-10;
+		z-index: 999;
+	}
+
+	#links-header ul {
+	    display:block;
+		margin-left:0px;
+		padding:0px;
+		list-style: none;
+	}
+
+	li.small-page-links {
+		padding: 10px;
+		float: left;
+		background-color: #95A3A9;
+		border-bottom: 1px solid #535C61;
+		margin:0px;
+		text-align:center;
+		width:100%;
+	}
+	
+	li.small-page-links:hover {
+		background-color: #859EB8;
+	}
+
+	li.small-page-links a:link, a:visited {
+	    width:100%;
+		display: block;
+		color: #FFFFFF;
+		text-decoration:none;
+		background-color:transparent;
+	}
+
+	li.small-page-links a:hover{
+		text-decoration: none;
+	}
+
+	.img-circle{
+		width: 150px;
+		height: 150px;
+	}
+	
+	.header h3{
+		font-size:22px;
+	}
+
+	.header p {
+		font-size: 12px;
+	}
+    
+    .contact-list {
+		display: block;
+	}
+
+	.information-container {
+		display: none;
+	}
+    
+    .toggle-button {
+		display: block;
+		margin-top: 15px;
+		margin-left:50px;
+		float:right;
+		width: 50px;
+		height:25px;
+	}
+	
+	.main-content {
+	    margin-top: 7vh;
+	}
+	
+	.information-line {
+	    font-size: 14px;
+	}
+	
+	.information-line.phone-number {
+	    font-size: 14px;
+	}
+	
+	.header h3{
+		font-size:18px;
+	}
+
+	.header p {
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+    .header h3{
+		font-size:16px;
+	}
+}
