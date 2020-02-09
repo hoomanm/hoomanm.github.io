@@ -151,6 +151,10 @@ a.body-link:visited {
 	margin-bottom: 10px;
 }
 
+.education a:visited {
+	color: #B864E2;
+}
+
 .education li.information-line {
     line-height: 1.8;
 }
