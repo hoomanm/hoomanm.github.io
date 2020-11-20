@@ -195,12 +195,6 @@ a.body-link:visited {
 	}
 }
 
-@media only screen and (min-width: 1500px) {
-	.resume-container {
-		width: 70%;
-	}
-}
-
 @media only screen and (min-width: 1400px) {
 	.header h3 {
 		width: 400px;
