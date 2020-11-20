@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$('a[href^="#"]').on('click', function(event) {
 	    var target = $($(this).attr('href'));
-		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	    if(target.length) {
 	        $('html,body').animate({
-	            scrollTop: target.offset().top - 200
+	            scrollTop: target.offset().top - 80
 	        }, 1000);
 	        return false;
 	    }
